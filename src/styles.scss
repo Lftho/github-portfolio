@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+
+.toolbar {
+  height: 60px;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.toolbar i {
+  font-size: 1.5rem;
+  color: white;
+  margin: 0 16px;
+}
+
+.toolbar a {
+  margin-bottom: 5px;
+}
+
+.toolbar i:hover {
+  opacity: 0.8;
+}
+
+.content {
+  margin: 52px auto 32px;
+  padding: 0 16px;
+}
